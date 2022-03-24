@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Musson</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220324143052">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content content-header">
+				<div class="content-header__container">
+					<a href="#" class="content-header__logo">
+						<img src="img/icons/logo_small.svg" alt="logo" />
+					</a>
+					<div class="content-header__menu menu-catalog">
+						<nav id="menu" class="menu-catalog__body">
+							<ul id="active-ru" class="menu-catalog__list">
+								<li class="menu-catalog__item"><a data-goto=".func" href="#" class="menu-catalog__link lang-func">Функции</a></li>
+								<li class="menu-catalog__item"><a data-goto=".benefits" href="#" class="menu-catalog__link lang-benefits">Преимущества</a></li>
+								<li class="menu-catalog__item"><a data-goto=".specification" href="#" class="menu-catalog__link lang-specification">Спецификация</a></li>
+								<li class="menu-catalog__item"><a data-goto=".usage" href="#" class="menu-catalog__link lang-usage">Сценарии использования</a></li>
+								<li class="menu-catalog__item"><a data-goto=".architecture" href="#" class="menu-catalog__link lang-architecture">Архитектура</a></li>
+								<li class="menu-catalog__item"><a data-goto=".footer" href="#" class="menu-catalog__link lang-contacts">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="content-header__languaje languaje">
+						<button class="languaje__button">
+							<img class="languaje__icon" src="img/icons/icon-languaje.svg" alt="icon-languaje" />
+						</button>
+						<nav class="languaje__body">
+							<ul class="languaje__list">
+								<li class="languaje__item"><a href="index.html" class="languaje__link  active-lang">ru</a></li>
+								<li class="languaje__item"><a href="english.html" class="languaje__link ">en</a></li>
+							</ul>
+						</nav>
+
+					</div>
+
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="swiper swiper-conteiner">
+				<div class="slider__item swiper-wrapper">
+					<section data-fullscreen class="fullscreen swiper-slide">
+						<div class="fullscreen__container box1">
+							<div class="fullscreen__imgbox imgbox1">
+								<img class="fullscreen__img img1" src="img/1.png" alt="cube module" />
+							</div>
+							<div class="fullscreen__main">
+								<div class="fullscreen__title open-lang-ru lang">МУССОН
+								</div>
+								<div class="fullscreen__text">Модульная система управления сетями связи онлайн
+								</div>
+								<a href="#func" class="fullscreen__button">
+									<p class="fullscreen__link">Подробнее</p>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<section data-fullscreen class="fullscreen swiper-slide">
+						<div class="fullscreen__container box2">
+							<div class="fullscreen__imgbox">
+								<img class="fullscreen__img img2" src="img/2.jpg" alt="cube module" />
+							</div>
+							<div class="fullscreen__main">
+								<div class="fullscreen__text">Поэтапное внедрение системы, оптимизация ресурсов сети,
+									группировка и маскирование аварий
+								</div>
+								<a href="#benefits" class="fullscreen__button">
+									<p class="fullscreen__link">Подробнее</p>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<section data-fullscreen class="fullscreen swiper-slide">
+						<div class="fullscreen__container box3">
+							<div class="fullscreen__imgbox">
+								<img class="fullscreen__img img3" src="img/3.png" alt="cube module" />
+							</div>
+							<div class="fullscreen__main">
+								<div class="fullscreen__text">Компоненты системы на основе кода российского происхождения или открытого кода
+								</div>
+								<a href="#architecture" class="fullscreen__button">
+									<p class="fullscreen__link">Подробнее</p>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="swiper-button-prev"><img src="img/prev.svg" alt="button-prev" /></div>
+				<div class="swiper-button-next"><img src="img/next.svg" alt="button-next" /></div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="definition"><a name="def"></a>
+				<div class="definition__conteiner">
+					<div class="definition__p">
+						<p>Система МУССОН предназначена для мониторинга сети,<br>в иерархии ITU TMN реализует зонтичную систему управления NMS+ с поддержкой функционала четырех уровней модели FCAPS</p>
+					</div>
+					<div class="definition__block"></div>
+				</div>
+			</div>
+			<div class="func-top"><a name="func"></a></div>
+			<div class="func">
+				<div class="func__conteiner">
+					<div class="func__title section-title">
+						<p class="func__text">Функции системы</p>
+					</div>
+
+					<div class="funk__block">
+						<div data-spollers data-one-spoller class="block">
+							<div class="block__item">
+								<button tabindex="-1" type="button" data-spoller class="block__title"><span class="span1">FM</span> <span>Fault management</span></button>
+								<div class="block__text">
+									<div class="block__text-title">Аварии, неисправности и события
+									</div>
+									<div class="block__text-content">
+										<ul>
+											<li>Непрерывный круглосуточный мониторинг состояния оборудования и услуг</li>
+											<li>Отображение аварии - со счётчиком количества срабатываний и группировками</li>
+											<li>Полнофункциональная фильтрация и поиск</li>
+											<li>Маскирование аварии на определённом оборудовании</li>
+											<li>Автоматический перезапрос сетевого элемента при наличии пропуска трапа</li>
+									</div>
+									<div class="block__text-img">
+										<img class="ibg" src="img/spollers_block/FM.png" alt="Fault management img">
+									</div>
+								</div>
+							</div>
+
+							<div class="block__item">
+								<button tabindex="-1" type="button" data-spoller class="block__title"><span class="span1">CM</span> <span>Configuration management</span></button>
+								<div class="block__text">
+									<div class="block__text-title">Конфигурация, настройки и состав оборудования
+									</div>
+									<div class="block__text-content">
+										<ul>
+											<li>Состав оборудования - для анализа необходимого ЗИП, возможности перемещения</li>
+											<li>Список всех установленных лицензий - для анализа потребности расширения функционала и модернизации сетевого элемента</li>
+											<li>Cписки конфигурации оборудования, сгруппированные по функционалу </li>
+											<li>Сбор данных по расписанию, по запросу оператора или по событиям на сетевом элементе</li>
+											<li>Контроль достоверности собранных данных – алгоритмы проверки и дозагрузки информируют администратора системы о проблемах с загрузкой</li>
+									</div>
+									<div class="block__text-img">
+										<img src="img/spollers_block/CM.png" alt="Configuration management img">
+									</div>
+								</div>
+							</div>
+
+							<div class="block__item">
+								<button tabindex="-1" type="button" data-spoller class="block__title"><span class="span1">PM</span> <span>Performance management</span></button>
+								<div class="block__text">
+									<div class="block__text-title">Производительность и деградация работы оборудования
+									</div>
+									<div class="block__text-content">
+										<ul>
+											<li>Статистический анализ загруженности и качества работы сети</li>
+											<li>Статистика суточных или интервальных значений параметров</li>
+											<li>Общий список загруженности полосы передачи данных % и Мб/с - на пролете, физическом порту и по VLAN</li>
+											<li>Создание отчета по перегрузке каналов - с количеством потерянных пакетов</li>
+											<li>Онлайн измерения уровней в реальном времени на проблемном участке</li>
+											<li>Качества связи между системой (в операторском облаке) и оборудованием региона</li>
+									</div>
+									<div class="block__text-img">
+										<img src="img/spollers_block/PM.png" alt="Performance management img">
+									</div>
+								</div>
+							</div>
+
+							<div class="block__item">
+								<button tabindex="-1" type="button" data-spoller class="block__title"><span class="span1">SM</span> <span>Security Management
+									</span></button>
+								<div class="block__text">
+									<div class="block__text-title">Управление безопасностью
+									</div>
+									<div class="block__text-content">
+										<ul>
+											<li>Управление сетевой аутентификацией, авторизацией</li>
+											<li>Аудит</li>
+										</ul>
+									</div>
+									<div class="block__text-img">
+										<img src="img/spollers_block/PM.png" alt="Security Management img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits-top"><a name="benefits"></a></div>
+			<div class="benefits">
+				<div class="benefits__conteiner">
+					<div class="benefits__title section-title">
+						<p class="benefit__text">Преимущества</p>
+					</div>
+				</div>
+
+				<div class="benefits-frugment swiper-conteiner">
+					<div class="benefits__conteiner-content swiper-wrapper">
+
+						<div class="benefits__width swiper-slide">
+
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/1.svg" alt="icon1" />
+								</div>
+								<div class="benefits__text">
+									<p>Единая мультивендорная мультиобъектная система</p>
+								</div>
+							</div>
+
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/2.svg" alt="icon2" />
+								</div>
+								<div class="benefits__text">
+									<p>Компоненты системы на основе кода российского происхождения или открытого кода</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="benefits__width swiper-slide">
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/3.svg" alt="icon3" />
+								</div>
+								<div class="benefits__text">
+									<p>Возможен сбор данных с сетевого элемента, а не только с системы управления вендора</p>
+								</div>
+							</div>
+
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/4.svg" alt="icon4" />
+								</div>
+								<div class="benefits__text">
+									<p>Интеграция оборудования на основе проприетарных API и протоколов</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="benefits__width swiper-slide">
+
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/5.svg" alt="icon5" />
+								</div>
+								<div class="benefits__text">
+									<p>Определение проблемных мест на сети</p>
+								</div>
+							</div>
+
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/6.svg" alt="icon6" />
+								</div>
+								<div class="benefits__text">
+									<p>Оптимизация ресурсов сети</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="benefits__width swiper-slide">
+							<div class="benefits__content">
+								<div class="benefits__icon">
+									<img src="img/icons/7.svg" alt="icon7" />
+								</div>
+								<div class="benefits__text">
+									<p>Оптимизация расходов, поддержка оператора в автоматизации работы с данными</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-pagination1"></div>
+				</div>
+
+
+				<div class="conteiner-content1">
+					<div class="benefits__conteiner-content conteiner-content2">
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/1.svg" alt="icon1" />
+							</div>
+							<div class="benefits__text">
+								<p>Единая мультивендорная мультиобъектная система</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/2.svg" alt="icon2" />
+							</div>
+							<div class="benefits__text">
+								<p>Компоненты системы на основе кода российского происхождения или открытого кода</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/3.svg" alt="icon3" />
+							</div>
+							<div class="benefits__text">
+								<p>Возможен сбор данных с сетевого элемента, а не только с системы управления вендора</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/4.svg" alt="icon4" />
+							</div>
+							<div class="benefits__text">
+								<p>Интеграция оборудования на основе проприетарных API и протоколов</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/5.svg" alt="icon5" />
+							</div>
+							<div class="benefits__text">
+								<p>Определение проблемных мест на сети</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/6.svg" alt="icon6" />
+							</div>
+							<div class="benefits__text">
+								<p>Оптимизация ресурсов сети</p>
+							</div>
+						</div>
+
+						<div class="benefits__content">
+							<div class="benefits__icon">
+								<img src="img/icons/7.svg" alt="icon7" />
+							</div>
+							<div class="benefits__text">
+								<p>Оптимизация расходов, поддержка оператора в автоматизации работы с данными</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="specification"><a name="specification"></a>
+				<div class="specification__conteiner">
+					<div class="specification__title section-title spec">
+						<p class="specification__text">Спецификация системы</p>
+					</div>
+					<div class="specification__conteiner-content">
+						<div class="specification__content">
+							<div class="specification__li">
+								<ul>
+									<li>Поддержка SNMP(v1, v2c, v3), FTP, SSH, NetConf</li>
+									<li>Возможность сбора данных напрямую с NE</li>
+									<li>Загрузка пользовательских MIB (от вендора) NEC Pasolink, Ericsson Minilink, Huawei RNT </li>
+									<li>Загрузка структур данных, данных RMON (RFC2819)</li>
+									<li>Группировка и маскирование аварий </li>
+									<li>Автоматический перезапрос сетевого элемента из-за пропуска аварии</li>
+									<li>Поиск элементов по сегменту сети (Auto-Discovery)</li>
+									<li>Определение топологии сети, отображение на схеме сети</li>
+									<li>Геопривязка объектов на карте</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="specification__block"></div>
+				</div>
+			</div>
+			<div class="usage"><a name="usage"></a>
+				<div class="usage__conteiner">
+
+					<div class="usage__title section-title">
+						<p class="usage__text">Сценарии использования</p>
+					</div>
+					<div class="usage__conteiner-content">
+						<div class="usage__block">
+							<div class="usage__block-text">
+								<p>Телекоммуникационные операторы</p>
+							</div>
+							<div class="usage__img">
+								<img src="img/use_cases_operator.jpg" alt="img operator" />
+							</div>
+						</div>
+
+						<div class="usage__block">
+							<div class="usage__block-text">
+								<p>Операторы спутниковых линий связи</p>
+							</div>
+							<div class="usage__img">
+								<img src="img/use_cases_setellite.jpg" alt="img setellite" />
+							</div>
+						</div>
+
+						<div class="usage__block">
+							<div class="usage__block-text">
+								<p>IT компании</p>
+							</div>
+							<div class="usage__img">
+								<img src="img/use_cases_it.jpg" alt="img it" />
+							</div>
+						</div>
+
+						<div class="usage__block">
+							<div class="usage__block-text use">
+								<p>Промышленные предприятия
+									с IT
+									инфраструктурой</p>
+							</div>
+							<div class="usage__img use1">
+								<img src="img/use_cases_enterprise.jpg" alt="img enterprise" />
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="architecture-top"><a name="architecture"></a></div>
+			<div class="architecture">
+				<div class="architecture__conteiner">
+					<div class="architecture__title section-title">
+						<p class="architecture__text">Архитектура платформы</p>
+					</div>
+					<div class="architecture__conteiner-content">
+						<div class="architecture__content">
+							<div class="architecture__img">
+								<div class="button">
+									<a href="#" id="open-popup" class="architecture__button">
+										<img class="button__zoom" src="img/icons/zoom-in.svg" />
+										<img class="button__img" src="img/Arch.png" />
+									</a>
+								</div>
+								<div id="popup" class="popup">
+									<div class="popup__container-popup">
+										<div id="popup__body" class="popup__body">
+											<div id="popup__close" class="popup__close">&#10006</div>
+											<img class="popup__img" src="img/ArchBack.jpg" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="architecture__p-text">
+								<p>Платформа построена на базе современных систем разработки ПО
+									с открытым кодом, таких как RabbitMQ, PostgreSQL, Timescale DB, Clickhouse.</p>
+								<p>В архитектуру заложена реализация отказоустойчивости, кластеризации, горизонтального и
+									вертикального масштабирования. Состав функциональных блоков зависит от требований к
+									системе и соответствия бизнес-логике работы оператора.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"><a name="footer"></a>
+			<div class="footer__body-top">
+				<div class="footer__container container">
+					<div class="footer__body">
+						<div data-da=".footer__body-bottom,768,0" class="footer__element element1">
+							<div class="footer__content content-footer">
+								<div class="content-footer__title">
+									<a href="#" class="content-footer__logo -ibg">
+										<img src="img/icons/logo-whight.svg" alt="logo" />
+									</a>
+								</div>
+								<div class="content-footer__subtitle">
+									<ul class="content-footer__list element1">
+										<li class="content-footer__item">Модульная система управления сетями связи онлайн</li>
+										<li data-da=".block-,768,1" class="content-footer__item link">
+											<a href="pdf-link/Musson.pdf" download target="_blank" class="content-footer__link">
+												<dev class="content-footer__icon"><img src="img/icons/pdf.svg" alt="pdf-icon" /></dev>
+												<a href="pdf-link/Musson.pdf" download target="_blank" class="content-footer__active">Скачать презентацию</a>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__element">
+							<div class="footer__content content-footer">
+								<div class="content-footer__title big">Контакты</div>
+								<div class="content-footer__subtitle">
+									<ul class="content-footer__list">
+										<li class="content-footer__item">
+											<p>Адрес: 105005 Россия, г.Москва, Аптекарский пер., д. 4, стр. 1, пом. 143</p>
+											<!--<p>105005, Россия, Москва, а/я 26</p>-->
+										</li>
+										<li class="content-footer__item link">
+											<a href="#" class="content-footer__link">
+												<dev class="content-footer__icon"><img class="content-footer__tel" src="img/icons/phone.svg" alt="phone-icon" /></dev>
+												<a class="tel content-footer__active" href="tel:74951960008">+7 (495) 196-00-08</a>
+											</a>
+										</li>
+										<li class="content-footer__item link">
+											<a href="#" class="content-footer__link">
+												<dev class="content-footer__icon"><img src="img/icons/mail.svg" alt="mail-icon" /></dev>
+												<a class="mail content-footer__active" href="mailto:musson@ntcpp.ru">musson@ntcpp.ru</a>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__element block-">
+							<div class="footer__content content-footer">
+								<div class="content-footer__title connect">
+									<a href="mailto:musson@ntcpp.ru">Связаться с нами</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__body-bottom">
+				<div class="footer__bottom-p">
+					<!--<p>Политика обработки персональных данных</p>-->
+					<p>© ООО «НТЦ ПП» 2022</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220324143052"></script>
+</body>
+
+</html>
